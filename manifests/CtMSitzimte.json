@@ -1,0 +1,515 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mlrubens.github.io/SAA-demo/manifests/CtMSitzimte.json",
+  "@type" : "sc:Manifest",
+  "label" : "Itzimte Stela 6 and Stela 7",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Itzimte Stelae at La Libertad, Petén, Guatemala, Selections from Corpus Volume 7, Contributions to Mesoamerican Studies. https://brucelove.com/corpus/corpus-volume-007/",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Photographs and drawings by Bruce Love unless otherwise noted",
+  "sequences" : [ {
+    "@id" : "http://5c9d43d7-9ad8-421a-bd2b-109be9d21aad",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://83dce20e-79cb-42f6-9326-ed7f66aae0b6",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 6, Itzimte, front, photo",
+      "height" : 3600,
+      "width" : 1658,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a9e5e673-39e5-415b-ba04-42a2f0098397",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-front-photo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-front-photo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 5968800,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3600,
+          "width" : 1658
+        },
+        "on" : "http://83dce20e-79cb-42f6-9326-ed7f66aae0b6"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.66 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.60 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.63 m"
+      } ]
+    }, {
+      "@id" : "http://e28c87ea-1acd-4d23-a24a-302f18475323",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 6, Itzimte, front, drawing",
+      "height" : 1800,
+      "width" : 828,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://13ac0d54-a953-49e0-a118-7b0a8b430ef4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-front-drawing/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-front-drawing",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1490400,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1800,
+          "width" : 828
+        },
+        "on" : "http://e28c87ea-1acd-4d23-a24a-302f18475323"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.66 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.60 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.63 m"
+      } ]
+    }, {
+      "@id" : "http://d7d23e3e-6e6f-4f7d-93de-efc94ad18d87",
+      "@type" : "sc:Canvas",
+      "label" : "Steoa 6, Itzimte, front, photo with details",
+      "height" : 3600,
+      "width" : 2880,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5ed54dba-67ff-44b9-919e-b360bcf748be",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-front-photo-details/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-front-photo-details",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 10368000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3600,
+          "width" : 2880
+        },
+        "on" : "http://d7d23e3e-6e6f-4f7d-93de-efc94ad18d87"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.66 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.60 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.63 m"
+      } ]
+    }, {
+      "@id" : "http://60f3aa4d-6a99-4513-b22a-0bbab389f537",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 6, Itzimte, left side, photo",
+      "height" : 3600,
+      "width" : 1134,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e8a8a962-8066-4d83-8980-4270ad7f01a2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-left-side-photo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-left-side-photo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 4082400,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3600,
+          "width" : 1134
+        },
+        "on" : "http://60f3aa4d-6a99-4513-b22a-0bbab389f537"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.66 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.60 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.63 m"
+      } ]
+    }, {
+      "@id" : "http://ff522044-9c1e-425b-848c-2eb4ce0bf3a0",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 6, Itzimte, left side, drawing",
+      "height" : 1800,
+      "width" : 529,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://73d2949f-53e4-4662-aab5-88719d426e95",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-left-side-drawing/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-6-left-side-drawing",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 952200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1800,
+          "width" : 529
+        },
+        "on" : "http://ff522044-9c1e-425b-848c-2eb4ce0bf3a0"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.66 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.60 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.63 m"
+      } ]
+    }, {
+      "@id" : "http://5851ddc7-a8ed-40a5-b586-0aef41b96b52",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, front, photo",
+      "height" : 4549,
+      "width" : 2588,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c9532e43-c8e3-4d3c-9a9f-92c06fa251ab",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-front-photo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-front-photo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 11772812,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4549,
+          "width" : 2588
+        },
+        "on" : "http://5851ddc7-a8ed-40a5-b586-0aef41b96b52"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    }, {
+      "@id" : "http://fab2999e-1bc9-44e8-aa74-e1a6238bfe0d",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, front, drawing",
+      "height" : 1801,
+      "width" : 1019,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b50767c5-a2e9-46c7-9f0b-151a645b4ef8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-front-drawing/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-front-drawing",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1835219,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1801,
+          "width" : 1019
+        },
+        "on" : "http://fab2999e-1bc9-44e8-aa74-e1a6238bfe0d"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    }, {
+      "@id" : "http://0fe7b1ba-a56e-4b86-9aa9-dee328256508",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, front, photo with details",
+      "height" : 6000,
+      "width" : 4800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c31a8f51-247b-4e81-92df-2ae0f780f177",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-front-photo-details/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-front-photo-details",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 28800000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 6000,
+          "width" : 4800
+        },
+        "on" : "http://0fe7b1ba-a56e-4b86-9aa9-dee328256508"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    }, {
+      "@id" : "http://0cebf6d4-c9d5-4d7d-ab02-8a8a21b545ae",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, left side, photo",
+      "height" : 3600,
+      "width" : 727,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fcfb17ae-8d54-4404-9c1c-a029bb77851a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-left-side-photo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-left-side-photo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2617200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3600,
+          "width" : 727
+        },
+        "on" : "http://0cebf6d4-c9d5-4d7d-ab02-8a8a21b545ae"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    }, {
+      "@id" : "http://647c1e00-dca8-473d-86a7-a8aca24709d7",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, left side, drawing",
+      "height" : 1800,
+      "width" : 312,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://587ab0fd-99e9-4487-b1d1-4fb270fe0d49",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-left-side-drawing/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-left-side-drawing",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 561600,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1800,
+          "width" : 312
+        },
+        "on" : "http://647c1e00-dca8-473d-86a7-a8aca24709d7"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    }, {
+      "@id" : "http://38947c9b-034d-4b60-9134-9ada07a297a0",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, right side, photo",
+      "height" : 3600,
+      "width" : 825,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d9789f59-8286-4f49-9758-0607372684ea",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-right-side-photo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-right-side-photo",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2970000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3600,
+          "width" : 825
+        },
+        "on" : "http://38947c9b-034d-4b60-9134-9ada07a297a0"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    }, {
+      "@id" : "http://9a8a22d2-bc28-4d29-a539-50d52e942bc5",
+      "@type" : "sc:Canvas",
+      "label" : "Stela 7, Itzimte, right side, drawing",
+      "height" : 1800,
+      "width" : 344,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ef3842e3-9bda-4508-af2e-bf57a84c4a7b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-right-side-drawing/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/itzimte-stela-7-right-side-drawing",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 619200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1800,
+          "width" : 344
+        },
+        "on" : "http://9a8a22d2-bc28-4d29-a539-50d52e942bc5"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Height",
+        "value" : "3.00 m"
+      }, {
+        "label" : "Width",
+        "value" : "1.48 m"
+      }, {
+        "label" : "Thickness",
+        "value" : "0.39 m"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
