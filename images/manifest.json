@@ -7,5 +7,87 @@
             "All images loaded in mlrubens/SAA-demo project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://mlrubens.github.io/SAA-demo/images/KH0426/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "KH0426"
+                ]
+            },
+            "height": 16065,
+            "width": 19773,
+            "items": [
+                {
+                    "id": "https://mlrubens.github.io/SAA-demo/images/KH0426/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mlrubens.github.io/SAA-demo/images/KH0426/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mlrubens.github.io/SAA-demo/images/KH0426/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 618,
+                                                "height": 503
+                                            },
+                                            {
+                                                "width": 1236,
+                                                "height": 1005
+                                            },
+                                            {
+                                                "width": 2472,
+                                                "height": 2009
+                                            },
+                                            {
+                                                "width": 4944,
+                                                "height": 4017
+                                            },
+                                            {
+                                                "width": 9887,
+                                                "height": 8033
+                                            },
+                                            {
+                                                "width": 19773,
+                                                "height": 16065
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 19773,
+                                        "@id": "https://mlrubens.github.io/SAA-demo/images/KH0426",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 16065,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mlrubens.github.io/SAA-demo/images/KH0426/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

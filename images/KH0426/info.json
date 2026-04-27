@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 618,
+    "height" : 503
+  }, {
+    "width" : 1236,
+    "height" : 1005
+  }, {
+    "width" : 2472,
+    "height" : 2009
+  }, {
+    "width" : 4944,
+    "height" : 4017
+  }, {
+    "width" : 9887,
+    "height" : 8033
+  }, {
+    "width" : 19773,
+    "height" : 16065
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 19773,
+  "@id" : "https://mlrubens.github.io/SAA-demo/images/KH0426",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 16065
+}
