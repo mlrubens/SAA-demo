@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mlrubens.github.io/SAA-demo/manifests/KH0426manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://64aa4f8d-d330-476d-a52a-0f3eb0f3eb84",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://4b31f3f1-0390-4af2-8a59-26ace4cf5a25",
+      "@type" : "sc:Canvas",
+      "label" : "KH0426",
+      "height" : 16065,
+      "width" : 19773,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://30faa2b4-a729-440b-a613-e8e30d890ba9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mlrubens.github.io/SAA-demo/images/KH0426/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mlrubens.github.io/SAA-demo/images/KH0426",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 16065,
+          "width" : 19773
+        },
+        "on" : "http://4b31f3f1-0390-4af2-8a59-26ace4cf5a25"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
