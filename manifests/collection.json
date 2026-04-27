@@ -1,0 +1,13 @@
+{
+  "id" : "https://mlrubens.github.io/SAA-demo/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mlrubens/SAA-demo project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mlrubens.github.io/SAA-demo/manifests/CtMSitzimte.json",
+    "label" : "Itzimte Stela 6 and Stela 7"
+  } ]
+}
