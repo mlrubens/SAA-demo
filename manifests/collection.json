@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mlrubens.github.io/SAA-demo/manifests/CtMSitzimte.json",
     "label" : "Itzimte Stela 6 and Stela 7"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mlrubens.github.io/SAA-demo/manifests/KH0027manifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }
