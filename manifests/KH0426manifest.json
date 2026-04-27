@@ -2,14 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://mlrubens.github.io/SAA-demo/manifests/KH0426manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "KH0426",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Click to edit description]",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "https://www.khipufieldguide.com/sketchbook/khipus/KH0426/html/KH0426_sketch.html",
   "sequences" : [ {
     "@id" : "http://64aa4f8d-d330-476d-a52a-0f3eb0f3eb84",
     "@type" : "sc:Sequence",
